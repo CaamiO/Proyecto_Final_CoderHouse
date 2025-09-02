@@ -1,0 +1,78 @@
+/* Reseteo de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generales*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Google Sans Code", monospace;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.boton {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.boton-cv, .boton-volver, .boton-enviar {
+    color: black;
+    cursor: pointer;
+}
+
+.boton-contacto {
+    background-color: black;
+    color: white; 
+}
+
+
+/* /Generales */
+
+/* Encabezado */
+
+header nav ul li a {
+    color: black;
+}
+/*img {
+    width: 100px;
+    height: 100px;
+}*/
+
+/* /Encabezado */
+
+/* Contenido principal */
+main div img {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* /Contenido principal */
+
